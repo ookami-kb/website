@@ -4,42 +4,66 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Improve your code quality',
+    Svg: require('../../static/img/quality.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Dart Code Metrics checks for anti-patterns and reports code metrics to
+        help you monitor the quality of your code and improve it.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Additional rules',
+    Svg: require('../../static/img/rules.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Dart Code Metrics provides additional configurable rules for the Dart
+        analyzer.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Use as Analyzer plugin',
+    Svg: require('../../static/img/plugin.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Connecting Dart Code Metrics as a plugin to the Analysis Server allows
+        you to receive real-time feedback directly from the IDE.
+      </>
+    ),
+  },
+  {
+    title: 'Integrate into the CI/CD process',
+    Svg: require('../../static/img/ci.svg').default,
+    description: (
+      <>
+        Launching via the command line allows you to easily integrate Dart Code
+        Metrics into the CI/CD process, and you can get results in Сonsole,
+        HTML, JSON, CodeClimate, or GitHub.
+      </>
+    ),
+  },
+  {
+    title: 'Community-friendly',
+    Svg: require('../../static/img/feedback.svg').default,
+    description: (
+      <>
+        Dart Code Metrics is developed by community for community. Your feedback
+        and PRs won't be ignored.
       </>
     ),
   },
 ];
 
-function Feature({ title, description }) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4', styles.feature)}>
       <div className="text--center">
-        {/* <Svg className={styles.featureSvg} alt={title} /> */}
+        <Svg className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
@@ -50,7 +74,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className={clsx('row', styles.featuresRow)}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

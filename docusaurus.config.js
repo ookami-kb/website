@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Dart Code Metrics',
-  tagline: '',
+  tagline: 'Static analysis tool that helps analyse and improve code quality.',
   url: 'https://github.com/dart-code-checker/dart-code-metrics', // TODO: update the link
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,6 +11,7 @@ module.exports = {
   projectName: 'dart-code-metrics',
   themeConfig: {
     prism: {
+      defaultLanguage: 'dart',
       additionalLanguages: ['dart'],
     },
     navbar: {
@@ -55,11 +56,44 @@ module.exports = {
       style: 'dark',
       links: [
         {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Rules',
+              to: 'docs/rules/overview',
+            },
+            {
+              label: 'Metrics',
+              to: 'docs/metrics/overview',
+            },
+            {
+              label: 'Configuration',
+              to: 'docs/getting-started/configuration',
+            },
+            {
+              label: 'GitHub Action',
+              href: 'https://github.com/dart-code-checker/dart-code-metrics-action',
+            },
+          ],
+        },
+        {
           title: 'Community',
           items: [
             {
+              label: 'Twitter',
+              href: 'https://twitter.com/search?q=%23dartcodemetrics&src=typed_query',
+            },
+            {
               label: 'Telegram',
               href: 'https://t.me/DartCodeMetrics',
+            },
+            {
+              label: 'Pub',
+              href: 'https://pub.dev/packages/dart_code_metrics',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/dart-code-checker/dart-code-metrics',
             },
           ],
         },
@@ -67,13 +101,17 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/dart-code-checker/dart-code-metrics',
+              label: 'Blog',
+              to: 'docs/getting-started/overview',
+            },
+            {
+              label: 'Official lint package',
+              href: 'https://pub.dev/packages/lints',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dart Code Checker Team. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dart Code Checker Team. <a href="https://storyset.com/people">Illustrations by Storyset</a>.`,
     },
   },
   presets: [
