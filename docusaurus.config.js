@@ -120,7 +120,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/dart-code-checker/website/',
+          editUrl: 'https://github.com/dart-code-checker/website/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
