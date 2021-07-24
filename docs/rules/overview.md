@@ -7,8 +7,6 @@ sidebar_position: 0
 
 Rules are grouped by a category to help you understand their purpose.
 
-Right now auto-fixes are available through the IDE context menu (ex. VS Code Quick Fix).
-
 Rules configuration is [described here](#configuring-a-rules-entry).
 
 ## Common {#common}
