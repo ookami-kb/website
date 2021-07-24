@@ -22,10 +22,10 @@ function HomepageHeader() {
           </p>
           <div className={styles.buttons}>
             <Link
-              className="button button--secondary button--lg"
+              className="button button--primary button--lg"
               to="/docs/getting-started/introduction"
             >
-              Getting Started
+              Get Started
             </Link>
 
             <span className={styles.githubButton}>
