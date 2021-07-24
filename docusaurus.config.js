@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dart-code-checker',
   projectName: 'dart-code-metrics',
+  trailingSlash: false,
   themeConfig: {
     prism: {
       defaultLanguage: 'dart',
@@ -22,7 +23,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/getting-started/overview',
+          to: 'docs/getting-started/introduction',
           label: 'Getting started',
           position: 'right',
           activeBasePath: 'docs/getting-started',
@@ -102,7 +103,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'docs/getting-started/overview',
+              to: 'docs/getting-started/introduction',
             },
             {
               label: 'Official lint package',
