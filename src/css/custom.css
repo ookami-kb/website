@@ -38,6 +38,11 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.navbar__logo {
+  width: 32px;
+  heigth: 32px;
+}
+
 footer .container {
   max-width: 700px;
 }
