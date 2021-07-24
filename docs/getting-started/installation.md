@@ -1,7 +1,50 @@
 ---
+title: 'Installation and Usage'
 sidebar_position: 1
 ---
 
-# Installation
+# Installing the package
 
-TODO:
+To install the package as a dev dependency run
+
+```sh
+$ dart pub add --dev dart_code_metrics
+
+# or for a Flutter package
+$ flutter pub add --dev dart_code_metrics
+```
+
+**OR**
+
+add it manually to `pubspec.yaml`
+
+```yaml title="pubspec.yaml"
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dev_dependencies:
+  dart_code_metrics: ^4.1.0
+```
+
+and then run
+
+```sh
+$ dart pub get
+
+# or for a Flutter package
+$ flutter pub get
+```
+
+## Usage
+
+### Analyzer plugin
+
+To use Dart Code Metrics as a plugin to the Dart analyzer refer to the Analyzer Plugin documentation section.
+
+### CLI
+
+To use Dart Code Metrics as a command-line tool refer to the Command Line Interface documentation section.
+
+### Library
+
+To use Dart Code Metrics as a library refer to this [example](https://github.com/dart-code-checker/dart-code-metrics/blob/master/example/example.dart).
