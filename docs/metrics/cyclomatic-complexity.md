@@ -2,10 +2,10 @@
 
 Number of linearly independent paths through a block of code. Conditional operators or loops increases the number of paths in a code. The more paths, the higher the number of test cases that need to be implemented. The metric complies with McCabe's original definition:
 
-* Methods have a base complexity of 1.
-* every control flow statement (`if`, `catch`, `throw`, `do`, `while`, `for`, `break`, `continue`) and conditional expression (`? ... : ...`) increase complexity
-* `else`, `finally` and `default` don't count
-* some operators (`&&`, `||`, `?.`, `??`, `??=`) increase complexity
+- Methods have a base complexity of 1.
+- every control flow statement (`if`, `catch`, `throw`, `do`, `while`, `for`, `break`, `continue`) and conditional expression (`? ... : ...`) increase complexity
+- `else`, `finally` and `default` don't count
+- some operators like `&&`, `||`, `?.`, `??` and `??=` also increase complexity
 
 ## Config example
 
