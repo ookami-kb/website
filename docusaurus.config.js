@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Dart Code Metrics',
   tagline: 'Static analysis tool that helps analyse and improve code quality.',
-  url: 'https://github.com/dart-code-checker/dart-code-metrics', // TODO: update the link
+  url: 'https://dartcodemetrics.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dart-code-checker',
-  projectName: 'dart-code-metrics',
+  projectName: 'website',
   trailingSlash: false,
   themeConfig: {
     prism: {
