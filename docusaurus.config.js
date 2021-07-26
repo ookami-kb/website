@@ -101,10 +101,11 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'docs/getting-started/introduction',
-            },
+            // TODO(incendial): add blog later
+            // {
+            //   label: 'Blog',
+            //   to: 'docs/getting-started/introduction',
+            // },
             {
               label: 'Official lint package',
               href: 'https://pub.dev/packages/lints',
