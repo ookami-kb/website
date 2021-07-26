@@ -1,5 +1,5 @@
 ---
-title: 'Installation and Usage'
+sidebar_label: 'Installation and Usage'
 sidebar_position: 1
 ---
 
