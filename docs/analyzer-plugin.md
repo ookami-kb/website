@@ -20,7 +20,7 @@ Plugin integration supports all IDE that are supported by the analyzer itself.
 
 ## Applying quick fixes
 
-Rules that marked with a `has auto-fix` badge have auto-fixes available through the IDE context menu. VS Code Quick Fix menu example:
+Rules that marked with a `has auto-fix` badge have auto-fixes available through the IDE context menu. VS Code example:
 
 ![VS Code example](../static/img/quick-fix.gif)
 
