@@ -39,11 +39,11 @@ $ flutter pub get
 
 ### Analyzer plugin
 
-To use Dart Code Metrics as a plugin to the Dart analyzer refer to the Analyzer Plugin documentation section.
+To use Dart Code Metrics as a plugin to the Dart analyzer refer to the [Analyzer Plugin documentation section](../analyzer-plugin.md).
 
 ### CLI
 
-To use Dart Code Metrics as a command-line tool refer to the Command Line Interface documentation section.
+To use Dart Code Metrics as a command-line tool refer to the [Command Line Interface documentation section](../cli/overview.md).
 
 ### Library
 
