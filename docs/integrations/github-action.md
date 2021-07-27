@@ -40,11 +40,11 @@ jobs:
 #### Analysis result
 
 <img
-  src="https://raw.githubusercontent.com/dart-code-checker/dart-code-metrics-action/master/doc/.assets/check_run_output.png"
+  src="../../static/img/action-analysis-result.png"
   alt="Analysis result example" />
 
 #### Annotation
 
 <img
-  src="https://raw.githubusercontent.com/dart-code-checker/dart-code-metrics-action/master/doc/.assets/annotation.png"
+  src="../../static/img/annotation.png"
   alt="Annotation example" />
