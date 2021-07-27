@@ -321,3 +321,29 @@ jobs:
 Example of a report in a PR:
 
 ![Report example](../../static/img/annotation.png)
+
+### GitLab
+
+Reports about design and static code diagnostics issues in merge requests based on Code Quality custom tool. Use `--reporter=gitlab` to enable this format.
+
+- Define a job in your `.gitlab-ci.yml` file that generates the [Code Quality report artifact](https://docs.gitlab.com/ee/ci/yaml/index.html#artifactsreportscodequality).
+
+```yaml
+code_quality:
+  image: google/dart
+  before_script:
+    - dart pub global activate dart_code_metrics
+  script:
+    - dart pub global run dart_code_metrics:metrics lib -r gitlab > code-quality-report.json
+  artifacts:
+    reports:
+      codequality: code-quality-report.json
+```
+
+Example of a Code Quality widget in a PR:
+
+![Code Quality widget](../../static/img/gitlab-codequality-widget.jpg)
+
+Example of a Code Quality in a PR diff view:
+
+![GitLab diff](../../static/img/gitlab-codequality-diff-view.jpg)
