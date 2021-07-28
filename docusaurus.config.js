@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: 'GitHub Action',
-              href: 'https://github.com/dart-code-checker/dart-code-metrics-action',
+              href: 'https://github.com/marketplace/actions/dart-code-metrics-action',
             },
           ],
         },
