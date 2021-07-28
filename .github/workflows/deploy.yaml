@@ -14,13 +14,21 @@ jobs:
         with:
           node-version: "16"
       - name: Deploy to GitHub Pages
-        env:
-          USE_SSH: true
-          GIT_USER: git
         run: |
           if [ -e package-lock.json ]; then
           npm ci
           else
           npm i
           fi
-          npm run deploy
+          # Extract GitHub org/user
+          REPO="${{ github.repository }}"
+          GIT_USERNAME=${REPO%/*}
+          # Configure git client
+          echo "Git repo - $REPO"
+          echo "Git user - $GIT_USERNAME"
+          echo "Event name - ${{ github.event_name }}"
+          git config --global user.email "$GIT_USERNAME@users.noreply.github.com"
+          git config --global user.name "$GIT_USERNAME"
+          echo "machine github.com login $GIT_USERNAME password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+          # Run docusaurus-deploy
+          GIT_USER=$GIT_USERNAME npm run deploy
