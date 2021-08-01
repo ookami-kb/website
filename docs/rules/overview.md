@@ -35,6 +35,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 - [avoid-unnecessary-setstate](./flutter/avoid-unnecessary-setstate.md)
 - [avoid-wrapping-in-padding](./flutter/avoid-wrapping-in-padding.md)
 - [prefer-extracting-callbacks](./flutter/prefer-extracting-callbacks.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./flutter/prefer-extracting-callbacks.md#config-example)
+- [prefer-single-widget-per-file](./flutter/prefer-single-widget-per-file.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./flutter/prefer-single-widget-per-file.md#config-example)
 
 ## Intl specific {#intl-specific}
 
