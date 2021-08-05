@@ -26,6 +26,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 - [no-magic-number](./common/no-magic-number.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/no-magic-number.md#config-example)
 - [no-object-declaration](./common/no-object-declaration.md)
 - [prefer-conditional-expressions](./common/prefer-conditional-expressions.md) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
+- [prefer-match-file-name](common/prefer-match-file-name.md)
 - [prefer-trailing-comma](./common/prefer-trailing-comma.md) &nbsp; [![Configurable](https://img.shields.io/badge/-configurable-informational)](./common/prefer-trailing-comma.md#config-example) &nbsp; ![Has auto-fix](https://img.shields.io/badge/-has%20auto--fix-success)
 
 ## Flutter specific {#flutter-specific}
