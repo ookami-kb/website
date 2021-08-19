@@ -4,6 +4,10 @@
 
 prefer-on-push-cd-strategy
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Prefer setting `changeDetection: ChangeDetectionStrategy.OnPush` in Angular `@Component` annotations.

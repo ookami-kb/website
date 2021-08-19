@@ -4,6 +4,10 @@
 
 avoid-unnecessary-setstate
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when `setState` is called inside `initState`, `didUpdateWidget` or `build` methods and when it's called from a `sync` method that is called inside those methods.

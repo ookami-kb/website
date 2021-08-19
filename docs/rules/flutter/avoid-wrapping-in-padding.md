@@ -4,6 +4,10 @@
 
 avoid-wrapping-in-padding
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when a widget is wrapped in a Padding widget but has a padding settings by itself.

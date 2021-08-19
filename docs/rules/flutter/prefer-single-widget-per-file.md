@@ -6,6 +6,10 @@
 
 prefer-single-widget-per-file
 
+## Severity
+
+Style
+
 ## Description
 
 Warns when a file contains more than a single widget.

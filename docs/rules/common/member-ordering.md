@@ -6,6 +6,10 @@
 
 member-ordering
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Enforces member ordering.

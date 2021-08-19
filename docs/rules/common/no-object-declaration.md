@@ -4,6 +4,10 @@
 
 no-object-declaration
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Warns when a class member is declared with Object type.

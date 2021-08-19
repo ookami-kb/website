@@ -6,6 +6,10 @@
 
 component-annotation-arguments-ordering
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Enforces Angular `@Component` annotation arguments ordering.

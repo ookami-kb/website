@@ -6,6 +6,10 @@
 
 no-equal-arguments
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when equal arguments passed to a function or method invocation.

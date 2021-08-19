@@ -6,6 +6,10 @@
 
 avoid-returning-widgets
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when a method, function or getter returns a Widget or subclass of a Widget.

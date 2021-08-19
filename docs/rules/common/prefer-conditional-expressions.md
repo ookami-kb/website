@@ -6,6 +6,10 @@
 
 prefer-conditional-expressions
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Recommends to use a conditional expression instead of assigning to the same thing or return statement in each branch of an if statement.

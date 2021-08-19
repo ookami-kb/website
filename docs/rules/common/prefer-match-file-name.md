@@ -4,6 +4,10 @@
 
 prefer-match-file-name
 
+## Severity
+
+Warning
+
 ## Description
 
 Warns if the file name does not match the name of the first public class in the file or a private class if there are no

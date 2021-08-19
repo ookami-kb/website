@@ -6,6 +6,10 @@
 
 member-ordering-extended
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 **Note:** Don't use it with the default member-ordering rule!

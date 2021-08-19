@@ -4,6 +4,10 @@
 
 avoid-preserve-whitespace-false
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Avoid setting `preserveWhitespace` in Angular `@Component` annotations to false explicitly. Its default value is already false.

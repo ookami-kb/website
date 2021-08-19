@@ -4,6 +4,10 @@
 
 no-equal-then-else
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when if statement has equal then and else statements or conditional expression has equal then and else expressions.

@@ -4,6 +4,10 @@
 
 always-remove-listener
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 **Note** the rule is _experimental_ and only checks for `Listenable` (and subclasses).

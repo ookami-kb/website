@@ -4,6 +4,10 @@
 
 avoid-unused-parameters
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Checks for unused parameters inside a function or method body.

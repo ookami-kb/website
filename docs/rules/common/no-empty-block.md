@@ -4,6 +4,10 @@
 
 no-empty-block
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Disallows empty blocks except catch clause block. Blocks with a todo comment inside are not considered empty.

@@ -4,6 +4,10 @@
 
 newline-before-return
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Enforces blank line between statements and return in a block.

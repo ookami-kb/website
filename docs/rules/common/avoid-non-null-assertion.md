@@ -4,6 +4,10 @@
 
 avoid-non-null-assertion
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when non null assertion operator (**!** or “bang” operator) is used for a property access or method invocation. The operator check works at runtime and it may fail and throw a runtime exception.

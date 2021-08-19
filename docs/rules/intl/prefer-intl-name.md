@@ -6,6 +6,10 @@
 
 prefer-intl-name
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Recommends to use `${ClassName}_${ClassMemberName}` pattern for `name` argument in `Intl.message()`, `Intl.plural()`, `Intl.gender()`, `Intl.select()` methods.

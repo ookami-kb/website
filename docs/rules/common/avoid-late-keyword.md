@@ -4,6 +4,10 @@
 
 avoid-late-keyword
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when a field or variable is declared with a `late` keyword.

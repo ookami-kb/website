@@ -6,6 +6,10 @@
 
 binary-expression-operand-order
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Warns when a literal value is on the left hand side in a binary expressions.

@@ -6,6 +6,10 @@
 
 prefer-extracting-callbacks
 
+## Severity
+
+Style
+
 ## Description {#description}
 
 Warns about inline callbacks in a widget tree and suggests to extract them to widget methods in order to make a `build` method more readable. In addition extracting can help test those methods separately as well.

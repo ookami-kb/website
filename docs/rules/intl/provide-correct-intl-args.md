@@ -4,6 +4,10 @@
 
 provide-correct-intl-args
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Warns when the `Intl.message()` invocation has incorrect `args` list.

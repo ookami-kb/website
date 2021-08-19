@@ -7,6 +7,10 @@
 
 prefer-trailing-comma
 
+## Severity
+
+Warning
+
 ## Description {#description}
 
 Check for trailing comma for arguments, parameters, enum values and collections.
