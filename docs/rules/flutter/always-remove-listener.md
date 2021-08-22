@@ -4,7 +4,7 @@
 
 always-remove-listener
 
-## Severity
+## Severity {#severity}
 
 Warning
 

@@ -8,11 +8,11 @@ Lines of code with clarification comments are usually a sign for possible method
 * If local variables and parameters prevent a method extraction, apply **Replace Temp with Query**, **Introduce Parameter Object** or **Preserve Whole Object** commands.
 * Conditional statements or loops indicate the possibility of method extraction. Use **Decompose Conditional** command for conditional expressions and **Extract Method** for loops.
 
-## Detection strategy
+## Detection strategy {#detection-strategy}
 
 Uses [`Source lines of Code`](../metrics/source-lines-of-code.md) value and compares it with configured threshold.
 
-## Exceptions
+## Exceptions {#exceptions}
 
 * Flutter widget build method.
 

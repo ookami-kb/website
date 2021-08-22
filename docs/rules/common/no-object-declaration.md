@@ -4,7 +4,7 @@
 
 no-object-declaration
 
-## Severity
+## Severity {#severity}
 
 Style
 

@@ -27,19 +27,19 @@ Usage: metrics check-unused-files [arguments...] <directories>
                                                   (defaults to "{/**.g.dart,/**.template.dart}")
 ```
 
-## Output example
+## Output example {#output-example}
 
-### Console
+### Console {#console}
 
 Use `--reporter=console` to enable this format.
 
 ![Console](../../static/img/unused-files-console-report.png)
 
-### JSON
+### JSON {#json}
 
 The reporter prints a single JSON object containing meta information and the unused file paths. Use `--reporter=json` to enable this format.
 
-#### The **root** object fields are
+#### The **root** object fields are {#the-root-object-fields-are}
 
 - `formatVersion` - an integer representing the format version (will be incremented each time the serialization format changes)
 - `timestamp` - a creation time of the report in YYYY-MM-DD HH:MM:SS format
@@ -63,7 +63,7 @@ The reporter prints a single JSON object containing meta information and the unu
 }
 ```
 
-#### The **unusedFiles** object fields are
+#### The **unusedFiles** object fields are {#the-unusedfiles-object-fields-are}
 
 - `path` - a relative path of the unused file
 

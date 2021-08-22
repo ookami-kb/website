@@ -4,7 +4,7 @@
 
 avoid-preserve-whitespace-false
 
-## Severity
+## Severity {#severity}
 
 Warning
 

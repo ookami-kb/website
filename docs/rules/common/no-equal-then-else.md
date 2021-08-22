@@ -4,7 +4,7 @@
 
 no-equal-then-else
 
-## Severity
+## Severity {#severity}
 
 Warning
 

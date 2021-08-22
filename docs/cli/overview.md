@@ -35,7 +35,7 @@ It will produce a result in one of the supported formats:
 
 **Note:** you need to configure `rules` entry in the `analysis_options.yaml` to have rules report included into the result.
 
-## Available commands
+## Available commands {#available-commands}
 
 The following table shows which commands you can use with the tool:
 
@@ -46,7 +46,7 @@ The following table shows which commands you can use with the tool:
 
 For additional help on any of the commands, enter `dart run dart_code_metrics:metrics help <command>`
 
-## Multi-package repositories usage
+## Multi-package repositories usage {#multi-package-repositories-usage}
 
 If you run a command from the root of a multi-package repository (aka monorepo), it'll pick up `analysis_options.yaml` files correctly.
 

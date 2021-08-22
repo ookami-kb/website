@@ -4,7 +4,7 @@
 
 avoid-wrapping-in-padding
 
-## Severity
+## Severity {#severity}
 
 Warning
 

@@ -4,7 +4,7 @@
 
 avoid-unnecessary-setstate
 
-## Severity
+## Severity {#severity}
 
 Warning
 

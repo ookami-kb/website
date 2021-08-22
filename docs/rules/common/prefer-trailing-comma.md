@@ -7,7 +7,7 @@
 
 prefer-trailing-comma
 
-## Severity
+## Severity {#severity}
 
 Warning
 

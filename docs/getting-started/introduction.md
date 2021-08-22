@@ -10,7 +10,7 @@ It collects analytical data on the code through calculating code metrics with co
 
 It can be launched via the command line, connected as a plugin to the Dart Analysis Server, or as a library. Launching via the command line allows you to easily integrate the tool into the CI/CD process, and you can get results in Сonsole, HTML, JSON, CodeClimate, or GitHub. Connecting the tool as a plugin to the Analysis Server allows you to receive real-time feedback directly from the IDE.
 
-## Metrics
+## Metrics {#metrics}
 
 Metrics can help manage codebase for teams or individuals working on both big and small projects.
 
@@ -18,7 +18,7 @@ Big projects usually have their own history with contributions from different pe
 
 For small projects metrics can help avoid the stage when codebase becomes harder to maintain because they provide instant feedback on any PR and questionable solutions might not even be merged into the main branch.
 
-## Rules
+## Rules {#rules}
 
 Other ecosystems have useful rules like unused arguments check, class member ordering check, etc. They’re not available in the built-in Dart SDK linter, but they are very handy and thats why Dart Code Metrics provides them.
 

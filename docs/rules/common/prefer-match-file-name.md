@@ -1,19 +1,19 @@
 # Prefer match file name
 
-## Rule id
+## Rule id {#rule-id}
 
 prefer-match-file-name
 
-## Severity
+## Severity {#severity}
 
 Warning
 
-## Description
+## Description {#description}
 
 Warns if the file name does not match the name of the first public class in the file or a private class if there are no
 public classes.
 
-### Config example
+### Config example {#config-example}
 
 We recommend exclude the `test` folder.
 
@@ -28,9 +28,9 @@ dart_code_metrics:
     ...
 ```
 
-### Example
+### Example {#example}
 
-#### Example 1 One class in the file
+#### Example 1 One class in the file {#example-1-one-class-in-the-file}
 
 Bad:
 
@@ -58,7 +58,7 @@ class SomeWidget extends StatelessWidget {
 }
 ```
 
-#### Example 2 Multiple class in the file
+#### Example 2 Multiple class in the file {#example-2-multiple-class-in-the-file}
 
 Bad:
 

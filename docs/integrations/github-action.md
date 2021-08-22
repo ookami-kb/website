@@ -2,7 +2,7 @@
 
 Dart Code Metrics GitHub Action allows you to integrate Dart Code Metrics into your CI/CD process and get code quality reports inside PR's.
 
-## Usage
+## Usage {#usage}
 
 Create `dartcodemetrics.yaml` under `.github/workflows` with the following content (the default configuration listed):
 
@@ -26,7 +26,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-### Inputs
+### Inputs {#inputs}
 
 | Name                   | Required                                                                  | Description                                                                                                                                                                                                                                                                                                         | Default |
 | :--------------------- | :------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------ |
@@ -36,12 +36,12 @@ jobs:
 | **github_pat**         | Required if you had private GitHub repository in the package dependencies | [**Personal access token**](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) must access to _repo_ and _read:user_ [scopes](https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes) |         |
 | **check_unused_files** |                                                                           | Additional scan for find unused files in package.                                                                                                                                                                                                                                                                   | `false` |
 
-### Output Example
+### Output Example {#output-example}
 
-#### Analysis result
+#### Analysis result {#analysis-result}
 
 ![Analysis result example](../../static/img/action-analysis-result.png)
 
-#### Annotation
+#### Annotation {#annotation}
 
 ![Annotation example](../../static/img/annotation.png)

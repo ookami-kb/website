@@ -6,7 +6,7 @@
 
 prefer-extracting-callbacks
 
-## Severity
+## Severity {#severity}
 
 Style
 

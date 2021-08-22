@@ -2,21 +2,21 @@
 
 ![Configurable](https://img.shields.io/badge/-configurable-informational)
 
-## Rule id
+## Rule id {#rule-id}
 
 prefer-single-widget-per-file
 
-## Severity
+## Severity {#severity}
 
 Style
 
-## Description
+## Description {#description}
 
 Warns when a file contains more than a single widget.
 
 Ensures that files have a single responsibility so that each widget exists in its own file.
 
-### Config example
+### Config example {#config-example}
 
 ```yaml
 dart_code_metrics:
@@ -27,7 +27,7 @@ dart_code_metrics:
         ignore-private-widgets: true
 ```
 
-### Example
+### Example {#example}
 
 Bad:
 

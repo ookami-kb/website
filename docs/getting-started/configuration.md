@@ -40,7 +40,7 @@ dart_code_metrics:
     - no-equal-then-else
 ```
 
-## Configuring a rules entry
+## Configuring a rules entry {#configuring-a-rules-entry}
 
 To enable a rule add its id to the `rules` entry. All rules have severity which can be overridden with `severity` config entry. For example,
 
@@ -61,11 +61,11 @@ will set severity to `style`. Available severity values:
 
 Rules with a `configurable` badge have additional configuration, check out their docs for more information.
 
-## Configuring a metrics entry
+## Configuring a metrics entry {#configuring-a-metrics-entry}
 
 To enable a metric add its id to the `metrics` entry in the `analysis_options.yaml`. All metrics can take a threshold value. If no value was provided, the default value will be used.
 
-## Configuring a metrics-exclude entry
+## Configuring a metrics-exclude entry {#configuring-a-metrics-exclude-entry}
 
 To exclude files from a metrics report provide a list of regular expressions for ignored files. For example:
 
@@ -76,11 +76,11 @@ dart_code_metrics:
     - lib/src/some_file.dart
 ```
 
-## Configuring an anti-pattern entry
+## Configuring an anti-pattern entry {#configuring-an-anti-pattern-entry}
 
 To enable an anti-pattern add its id to the `anti-patterns` entry.
 
-## Ignoring a rule or anti-pattern
+## Ignoring a rule or anti-pattern {#ignoring-a-rule-or-anti-pattern}
 
 If a specific rule or anti-pattern warning should be ignored, it can be flagged with a comment. For example,
 

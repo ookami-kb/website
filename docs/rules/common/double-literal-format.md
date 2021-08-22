@@ -6,7 +6,7 @@
 
 double-literal-format
 
-## Severity
+## Severity {#severity}
 
 Style
 

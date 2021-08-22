@@ -6,7 +6,7 @@
 
 no-equal-arguments
 
-## Severity
+## Severity {#severity}
 
 Warning
 

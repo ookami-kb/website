@@ -4,7 +4,7 @@
 
 avoid-unused-parameters
 
-## Severity
+## Severity {#severity}
 
 Warning
 

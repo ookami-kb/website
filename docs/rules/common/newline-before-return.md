@@ -4,7 +4,7 @@
 
 newline-before-return
 
-## Severity
+## Severity {#severity}
 
 Style
 

@@ -6,7 +6,7 @@
 
 binary-expression-operand-order
 
-## Severity
+## Severity {#severity}
 
 Style
 

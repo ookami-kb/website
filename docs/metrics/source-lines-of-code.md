@@ -4,11 +4,11 @@
 
 This metric is used to measure the size of a computer program by counting the number of lines in the text of the program's source code. **SLOC** is typically used to predict the amount of effort that will be required to develop a program, as well as to estimate programming productivity or maintainability once the software is produced.
 
-## Used for
+## Used for {#used-for}
 
 * [Long Method](../anti-patterns/long-method.md)
 
-## Config example
+## Config example {#config-example}
 
 ```yaml
 dart_code_metrics:
@@ -18,7 +18,7 @@ dart_code_metrics:
     - source-lines-of-code: 50
 ```
 
-## Example
+## Example {#example}
 
 ```dart
 MetricComputationResult<int> computeImplementation(

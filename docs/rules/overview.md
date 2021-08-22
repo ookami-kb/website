@@ -11,6 +11,7 @@ Rules configuration is [described here](../getting-started/configuration#configu
 
 ## Common {#common}
 
+- [avoid-ignoring-return-values](./common/avoid-ignoring-return-values.md)
 - [avoid-late-keyword](./common/avoid-late-keyword.md)
 - [avoid-non-null-assertion](./common/avoid-non-null-assertion.md)
 - [avoid-unused-parameters](./common/avoid-unused-parameters.md)

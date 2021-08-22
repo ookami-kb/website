@@ -6,7 +6,7 @@
 
 component-annotation-arguments-ordering
 
-## Severity
+## Severity {#severity}
 
 Style
 

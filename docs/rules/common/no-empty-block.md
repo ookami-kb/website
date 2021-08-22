@@ -4,7 +4,7 @@
 
 no-empty-block
 
-## Severity
+## Severity {#severity}
 
 Style
 

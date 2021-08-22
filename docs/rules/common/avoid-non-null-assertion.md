@@ -4,7 +4,7 @@
 
 avoid-non-null-assertion
 
-## Severity
+## Severity {#severity}
 
 Warning
 

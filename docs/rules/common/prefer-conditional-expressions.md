@@ -6,7 +6,7 @@
 
 prefer-conditional-expressions
 
-## Severity
+## Severity {#severity}
 
 Style
 

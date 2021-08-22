@@ -4,7 +4,7 @@
 
 prefer-on-push-cd-strategy
 
-## Severity
+## Severity {#severity}
 
 Warning
 

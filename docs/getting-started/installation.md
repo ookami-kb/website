@@ -35,16 +35,16 @@ $ dart pub get
 $ flutter pub get
 ```
 
-## Usage
+## Usage {#usage}
 
-### Analyzer plugin
+### Analyzer plugin {#analyzer-plugin}
 
 To use Dart Code Metrics as a plugin to the Dart analyzer refer to the [Analyzer Plugin documentation section](../analyzer-plugin.md).
 
-### CLI
+### CLI {#cli}
 
 To use Dart Code Metrics as a command-line tool refer to the [Command Line Interface documentation section](../cli/overview.md).
 
-### Library
+### Library {#library}
 
 To use Dart Code Metrics as a library refer to this [example](https://github.com/dart-code-checker/dart-code-metrics/blob/master/example/example.dart).

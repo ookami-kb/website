@@ -6,7 +6,7 @@
 
 member-ordering-extended
 
-## Severity
+## Severity {#severity}
 
 Style
 

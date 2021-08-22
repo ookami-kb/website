@@ -6,7 +6,7 @@
 
 no-magic-number
 
-## Severity
+## Severity {#severity}
 
 Warning
 

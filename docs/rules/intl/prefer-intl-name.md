@@ -6,7 +6,7 @@
 
 prefer-intl-name
 
-## Severity
+## Severity {#severity}
 
 Warning
 

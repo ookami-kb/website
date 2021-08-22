@@ -6,7 +6,7 @@
 
 avoid-returning-widgets
 
-## Severity
+## Severity {#severity}
 
 Warning
 

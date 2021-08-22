@@ -4,7 +4,7 @@
 
 avoid-late-keyword
 
-## Severity
+## Severity {#severity}
 
 Warning
 

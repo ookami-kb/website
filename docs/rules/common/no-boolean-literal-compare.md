@@ -6,7 +6,7 @@
 
 no-boolean-literal-compare
 
-## Severity
+## Severity {#severity}
 
 Style
 

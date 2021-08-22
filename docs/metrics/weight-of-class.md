@@ -6,7 +6,7 @@ This metric tries to quantify whether the measured class (or _mixin_, or _extens
 
 Our definition of **functional** method excludes getters and setters.
 
-## Config example
+## Config example {#config-example}
 
 ```yaml
 dart_code_metrics:

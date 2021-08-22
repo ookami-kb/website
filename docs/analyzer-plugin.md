@@ -18,12 +18,12 @@ dart_code_metrics: ... # package configuration
 
 Plugin integration supports all IDE that are supported by the analyzer itself.
 
-## Applying quick fixes
+## Applying quick fixes {#applying-quick-fixes}
 
 Rules that marked with a `has auto-fix` badge have auto-fixes available through the IDE context menu. VS Code example:
 
 ![VS Code example](../static/img/quick-fix.gif)
 
-## Troubleshooting the plugin integration
+## Troubleshooting the plugin integration {#troubleshooting-the-plugin-integration}
 
 If you have a problem with the plugin, refer to the [troubleshooting docs](https://github.com/dart-code-checker/dart-code-metrics/blob/master/TROUBLESHOOTING.md).

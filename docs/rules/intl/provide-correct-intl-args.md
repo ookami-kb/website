@@ -4,7 +4,7 @@
 
 provide-correct-intl-args
 
-## Severity
+## Severity {#severity}
 
 Warning
 

@@ -44,35 +44,35 @@ Usage: metrics analyze [arguments...] <directories>
                                                   [none, warning, alarm]
 ```
 
-## Output example
+## Output example {#output-example}
 
-### Console
+### Console {#console}
 
 Use `--reporter=console` to enable this format.
 
 ![Console](../../static/img/console-report.png)
 
-### HTML
+### HTML {#html}
 
 Use `--reporter=html` to enable this format.
 
-#### HTML report overview
+#### HTML report overview {#html-report-overview}
 
 ![HTML](../../static/img/html-report.png)
 
-#### HTML single file report
+#### HTML single file report {#html-single-file-report}
 
 ![HTML](../../static/img/html-single-file-report.png)
 
-#### HTML report details
+#### HTML report details {#html-report-details}
 
 ![HTML](../../static/img/html-details-report.png)
 
-### JSON
+### JSON {#json}
 
 The reporter prints a single JSON object containing meta information and the violations grouped by a file. Use `--reporter=json` to enable this format.
 
-#### The **root** object fields are
+#### The **root** object fields are {#the-root-object-fields-are}
 
 - `formatVersion` - an integer representing the format version (will be incremented each time the serialization format changes)
 - `timestamp` - a creation time of the report in YYYY-MM-DD HH:MM:SS format
@@ -96,7 +96,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **record** object fields are
+#### The **record** object fields are {#the-record-object-fields-are}
 
 - `path` - a relative path to the target file
 - `classes` - a map with **class name** as the **key** and **[class report](#the-report-object-fields-are)** as the **value**
@@ -122,7 +122,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **report** object fields are
+#### The **report** object fields are {#the-report-object-fields-are}
 
 - `codeSpan` - a source [code span](#the-code-span-object-fields-are) of the target entity
 - `metrics` - an array with target entity [metrics](#the-metric-value-object-fields-are)
@@ -138,7 +138,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **code span** object fields are
+#### The **code span** object fields are {#the-code-span-object-fields-are}
 
 - `start` - a start [location](#the-location-object-fields-are) of an entity
 - `end` - an end [location](#the-location-object-fields-are) of an entity
@@ -156,7 +156,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **location** object fields are
+#### The **location** object fields are {#the-location-object-fields-are}
 
 - `offset` - a zero-based offset of the location in the source
 - `line` - a zero-based line of the location in the source
@@ -170,7 +170,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **metric value** object fields are
+#### The **metric value** object fields are {#the-metric-value-object-fields-are}
 
 - `metricsId` - an id of the computed metric
 - `value` - an actual value computed by the metric
@@ -192,7 +192,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **context message** object fields are
+#### The **context message** object fields are {#the-context-message-object-fields-are}
 
 - `message` - an message to be displayed to the user
 - `codeSpan` - a source [code span](#the-code-span-object-fields-are) associated with or referenced by the message
@@ -206,7 +206,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **issue** object fields are
+#### The **issue** object fields are {#the-issue-object-fields-are}
 
 - `ruleId` - an id of the rule associated with the issue
 - `documentation` - an url of a page containing documentation associated with the issue
@@ -232,7 +232,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-#### The **suggestion** object fields are
+#### The **suggestion** object fields are {#the-suggestion-object-fields-are}
 
 - `comment` - a human-readable description of the change to be applied
 - `replacement` - a code with changes to replace original code with
@@ -244,7 +244,7 @@ The reporter prints a single JSON object containing meta information and the vio
 }
 ```
 
-### GitHub
+### GitHub {#github}
 
 Reports about design and static code diagnostics issues in pull requests based on GitHub Actions Workflow commands. Use `--reporter=github` to enable this format.
 
@@ -300,7 +300,7 @@ Reports about design and static code diagnostics issues in pull requests based o
     # run: dart pub global activate dart_code_metrics && dart pub global run dart_code_metrics:metrics --reporter=github lib
   ```
 
-#### Full Example
+#### Full Example {#full-example}
 
 ```yaml
 jobs:
@@ -322,7 +322,7 @@ Example of a report in a PR:
 
 ![Report example](../../static/img/annotation.png)
 
-### GitLab
+### GitLab {#gitlab}
 
 Reports about design and static code diagnostics issues in merge requests based on Code Quality custom tool. Use `--reporter=gitlab` to enable this format.
 
