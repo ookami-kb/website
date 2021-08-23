@@ -22,6 +22,14 @@ module.exports = {
       defaultLanguage: 'dart',
       additionalLanguages: ['dart'],
     },
+    announcementBar: {
+      id: 'support_us',
+      content:
+        "⭐ If you like DCM, give it a star on <a target='_blank' rel='noopener noreferrer' href='https://github.com/dart-code-checker/dart-code-metrics'>GitHub</a> ⭐",
+      backgroundColor: '#fff',
+      textColor: '#000',
+      isCloseable: true,
+    },
     navbar: {
       title: 'Dart Code Metrics',
       logo: {
