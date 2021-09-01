@@ -10,6 +10,7 @@ Metrics configuration is [described here](../getting-started/configuration#confi
 Available metrics:
 
 - [Cyclomatic Complexity](./cyclomatic-complexity.md)
+- [Halstead Volume](./halstead-volume.md)
 - [Lines of Code](./lines-of-code.md)
 - [Maximum Nesting](./maximum-nesting-level.md)
 - [Number of Methods](./number-of-methods.md)
