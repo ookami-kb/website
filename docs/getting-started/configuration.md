@@ -78,7 +78,16 @@ dart_code_metrics:
 
 ## Configuring an anti-pattern entry {#configuring-an-anti-pattern-entry}
 
-To enable an anti-pattern add its id to the `anti-patterns` entry.
+To enable an anti-pattern add its id to the `anti-patterns` entry. All anti-pattern have severity which can be overridden with `severity` config entry. For example,
+
+```yaml title="analysis_options.yaml"
+dart_code_metrics:
+  anti-patterns:
+    - long-method:
+        severity: warning
+```
+
+will set severity to `warning`.
 
 ## Ignoring a rule or anti-pattern {#ignoring-a-rule-or-anti-pattern}
 
