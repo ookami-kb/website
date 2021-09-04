@@ -4,27 +4,26 @@ sidebar_position: 2
 
 # Configuration
 
-To configure the package add a `dart_code_metrics` entry to a `analysis_options.yaml`. This configuration is used by both CLI and the analyzer plugin.
+To configure the package add a `dart_code_metrics` entry to `analysis_options.yaml`. This configuration is used by both CLI and the analyzer plugin.
 
 ```yaml title="analysis_options.yaml"
 dart_code_metrics:
-  anti-patterns:
-    - ... # configures the list of anti-patterns
   metrics:
     - ... # configures the list of reported metrics
   metrics-exclude:
     - ... # configures the list of files that should be ignored by metrics
   rules:
     - ... # configures the list of rules
+  rules-exclude:
+    - ... # configures the list of files that should be ignored by rules
+  anti-patterns:
+    - ... # configures the list of anti-patterns
 ```
 
 Basic config example:
 
 ```yaml title="analysis_options.yaml"
 dart_code_metrics:
-  anti-patterns:
-    - long-method
-    - long-parameter-list
   metrics:
     cyclomatic-complexity: 20
     number-of-arguments: 4
@@ -38,6 +37,24 @@ dart_code_metrics:
     - prefer-trailing-comma
     - prefer-conditional-expressions
     - no-equal-then-else
+  anti-patterns:
+    - long-method
+    - long-parameter-list
+```
+
+## Configuring a metrics entry {#configuring-a-metrics-entry}
+
+To enable a metric add its id to the `metrics` entry in the `analysis_options.yaml`. All metrics can take a threshold value. If no value was provided, the default value will be used.
+
+## Configuring a metrics-exclude entry {#configuring-a-metrics-exclude-entry}
+
+To exclude files from a metrics report provide a list of regular expressions for ignored files. For example:
+
+```yaml title="analysis_options.yaml"
+dart_code_metrics:
+  metrics-exclude:
+    - test/**
+    - lib/src/some_file.dart
 ```
 
 ## Configuring a rules entry {#configuring-a-rules-entry}
@@ -61,17 +78,13 @@ will set severity to `style`. Available severity values:
 
 Rules with a `configurable` badge have additional configuration, check out their docs for more information.
 
-## Configuring a metrics entry {#configuring-a-metrics-entry}
+## Configuring a rules-exclude entry {#configuring-a-rules-exclude-entry}
 
-To enable a metric add its id to the `metrics` entry in the `analysis_options.yaml`. All metrics can take a threshold value. If no value was provided, the default value will be used.
-
-## Configuring a metrics-exclude entry {#configuring-a-metrics-exclude-entry}
-
-To exclude files from a metrics report provide a list of regular expressions for ignored files. For example:
+To exclude files from a rules analysis provide a list of regular expressions for ignored files. For example:
 
 ```yaml title="analysis_options.yaml"
 dart_code_metrics:
-  metrics-exclude:
+  rules-exclude:
     - test/**
     - lib/src/some_file.dart
 ```
