@@ -36,7 +36,7 @@ jobs:
 | **github_pat**         | Required if you had private GitHub repository in the package dependencies | [**Personal access token**](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) must access to _repo_ and _read:user_ [scopes](https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes) |         |
 | **check_unused_files** |                                                                           | Additional scan for find unused files in package.                                                                                                                                                                                                                                                                   | `false` |
 
-### Output Example {#output-example}
+### Output example {#output-example}
 
 #### Analysis result {#analysis-result}
 
