@@ -4,6 +4,8 @@
 
 ## Usage {#usage}
 
+### With `codemagic.yaml`
+
 To enable Dart Code Metrics add the following script to `codemagic.yaml`
 
 ```yml title="codemagic.yaml"
@@ -18,7 +20,9 @@ scripts:
 
 check out [Codemagic docs](https://docs.codemagic.io/yaml-testing/dart-code-metrics/) for more details about `codemagic.yaml` setup.
 
-Alternatively, you can use Dart Code Metrics with the Flutter workflow editor. To do so, enable Dart Code Metrics option:
+### With the Flutter workflow editor
+
+To enable Dart Code Metrics check the `Enable Dart Code Metrics` option:
 
 ![Dart Code Metrics Flutter workflow editor](../../static/img/dcm-flutter-workflow-editor.png)
 
