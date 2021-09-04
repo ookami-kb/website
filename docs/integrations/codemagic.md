@@ -16,13 +16,13 @@ scripts:
     test_report: metrics-results/dart_code_metrics.json
 ```
 
-check out [Codemagic docs](https://docs.codemagic.io/yaml-testing/dart-code-metrics/) for more details about this setup.
+check out [Codemagic docs](https://docs.codemagic.io/yaml-testing/dart-code-metrics/) for more details about `codemagic.yaml` setup.
 
-Alternatively, you can use Dart Code Metrics with Flutter workflow editor. To do so, enable Dart Code Metrics option:
+Alternatively, you can use Dart Code Metrics with the Flutter workflow editor. To do so, enable Dart Code Metrics option:
 
 ![Dart Code Metrics Flutter workflow editor](../../static/img/dcm-flutter-workflow-editor.png)
 
-check out [Codemagic docs](https://docs.codemagic.io/flutter-testing/static-code-analysis/#dart-code-metrics) for more details about this setup.
+check out [Codemagic docs](https://docs.codemagic.io/flutter-testing/static-code-analysis/#dart-code-metrics) for more details about the Flutter workflow editor setup.
 
 ### Output example {#output-example}
 
