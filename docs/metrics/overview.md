@@ -12,6 +12,7 @@ Available metrics:
 - [Cyclomatic Complexity](./cyclomatic-complexity.md)
 - [Halstead Volume](./halstead-volume.md)
 - [Lines of Code](./lines-of-code.md)
+- [Maintainability Index](./maintainability-index.md)
 - [Maximum Nesting](./maximum-nesting-level.md)
 - [Number of Methods](./number-of-methods.md)
 - [Number of Parameters](./number-of-parameters.md)

@@ -24,15 +24,15 @@ Usage: metrics analyze [arguments...] <directories>
                                                   (defaults to "metrics/")
 
 
-    --cyclomatic-complexity=<20>                  Cyclomatic Complexity threshold
-    --halstead-volume=<150>                       Halstead Volume threshold
-    --lines-of-code=<100>                         Lines of Code threshold
-    --maximum-nesting-level=<5>                   Maximum Nesting Level threshold
-    --number-of-methods=<10>                      Number of Methods threshold
-    --number-of-parameters=<4>                    Number of Parameters threshold
-    --source-lines-of-code=<50>                   Source lines of Code threshold
-    --weight-of-class=<0.33>                      Weight Of a Class threshold
-
+    --cyclomatic-complexity=<20>                  Cyclomatic Complexity threshold.
+    --halstead-volume=<150>                       Halstead Volume threshold.
+    --lines-of-code=<100>                         Lines of Code threshold.
+    --maximum-nesting-level=<5>                   Maximum Nesting Level threshold.
+    --number-of-methods=<10>                      Number of Methods threshold.
+    --number-of-parameters=<4>                    Number of Parameters threshold.
+    --source-lines-of-code=<50>                   Source lines of Code threshold.
+    --weight-of-class=<0.33>                      Weight Of a Class threshold.
+    --maintainability-index=<50>                  Maintainability Index threshold.
 
     --root-folder=<./>                            Root folder
                                                   (defaults to current directory)
